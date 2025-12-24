@@ -1,0 +1,147 @@
+{
+  "common": {
+    "appName": "Venues",
+    "welcome": "Добре дошли",
+    "loading": "Зареждане...",
+    "error": "Грешка",
+    "success": "Успех",
+    "cancel": "Отказ",
+    "confirm": "Потвърди",
+    "save": "Запази",
+    "delete": "Изтрий",
+    "edit": "Редактирай",
+    "create": "Създай",
+    "back": "Назад",
+    "next": "Напред",
+    "previous": "Предишна",
+    "search": "Търсене",
+    "filter": "Филтър",
+    "sort": "Сортиране",
+    "actions": "Действия"
+  },
+  "auth": {
+    "login": "Вход",
+    "logout": "Изход",
+    "register": "Регистрация",
+    "signIn": "Влез",
+    "signUp": "Регистрирай се",
+    "signOut": "Излез",
+    "email": "Имейл",
+    "password": "Парола",
+    "confirmPassword": "Потвърди паролата",
+    "name": "Име",
+    "rememberMe": "Запомни ме",
+    "forgotPassword": "Забравена парола?",
+    "noAccount": "Нямате акаунт?",
+    "hasAccount": "Вече имате акаунт?",
+    "createAccount": "Създай акаунт",
+    "verifyEmail": "Потвърди имейл",
+    "emailVerification": "Потвърждение на имейл",
+    "resendVerification": "Изпрати отново имейл за потвърждение",
+
+    "titles": {
+      "login": "Влезте в акаунта си",
+      "register": "Създайте акаунт",
+      "verifyEmail": "Потвърдете имейл адреса си",
+      "forgotPassword": "Нулиране на парола"
+    },
+
+    "messages": {
+      "loginSuccess": "Влизането е успешно",
+      "registerSuccess": "Регистрацията е успешна. Моля, потвърдете вашия имейл.",
+      "logoutSuccess": "Излизането е успешно",
+      "verificationSent": "Имейл за потвърждение е изпратен. Моля, проверете входящата си поща.",
+      "emailVerified": "Имейлът е потвърден успешно",
+      "emailAlreadyVerified": "Имейлът вече е потвърден",
+      "invalidCredentials": "Невалиден имейл или парола",
+      "emailAlreadyExists": "Имейлът вече съществува",
+      "userNotFound": "Потребителят не е намерен",
+      "emailNotVerified": "Моля, първо потвърдете вашия имейл",
+      "invalidToken": "Невалиден или изтекъл токен",
+      "checkEmail": "Моля, проверете имейла си за линк за потвърждение"
+    },
+
+    "errors": {
+      "emailRequired": "Имейлът е задължителен",
+      "emailInvalid": "Невалиден имейл адрес",
+      "passwordRequired": "Паролата е задължителна",
+      "passwordMin": "Паролата трябва да бъде поне 8 символа",
+      "passwordUppercase": "Трябва да съдържа главна буква",
+      "passwordLowercase": "Трябва да съдържа малка буква",
+      "passwordNumber": "Трябва да съдържа число",
+      "passwordSpecial": "Трябва да съдържа специален символ",
+      "nameRequired": "Името е задължително",
+      "nameMin": "Името трябва да бъде поне 2 символа",
+      "passwordsNotMatch": "Паролите не съвпадат",
+      "unexpectedError": "Възникна неочаквана грешка"
+    },
+
+    "placeholders": {
+      "email": "Въведете имейл",
+      "password": "Въведете парола",
+      "confirmPassword": "Потвърдете паролата",
+      "name": "Въведете име"
+    },
+
+    "oauth": {
+      "continueWith": "Или продължете с",
+      "google": "Google",
+      "github": "GitHub",
+      "signInWithGoogle": "Влезте с Google",
+      "signInWithGitHub": "Влезте с GitHub"
+    }
+  },
+  "navigation": {
+    "home": "Начало",
+    "dashboard": "Табло",
+    "profile": "Профил",
+    "settings": "Настройки",
+    "about": "За нас",
+    "contact": "Контакти",
+    "help": "Помощ",
+    "documentation": "Документация"
+  },
+  "validation": {
+    "required": "Това поле е задължително",
+    "invalid": "Невалидна стойност",
+    "tooShort": "Твърде кратко",
+    "tooLong": "Твърде дълго",
+    "min": "Минимум {min} символа",
+    "max": "Максимум {max} символа",
+    "email": "Невалиден имейл адрес",
+    "url": "Невалиден URL",
+    "number": "Трябва да бъде число",
+    "integer": "Трябва да бъде цяло число",
+    "positive": "Трябва да бъде положително",
+    "negative": "Трябва да бъде отрицателно"
+  },
+  "errors": {
+    "pageNotFound": "Страницата не е намерена",
+    "unauthorized": "Неоторизиран",
+    "forbidden": "Забранено",
+    "internalError": "Вътрешна грешка на сървъра",
+    "somethingWentWrong": "Нещо се обърка",
+    "tryAgain": "Моля, опитайте отново",
+    "contactSupport": "Свържете се с поддръжката, ако проблемът продължи"
+  },
+  "user": {
+    "profile": "Профил",
+    "settings": "Настройки",
+    "account": "Акаунт",
+    "security": "Сигурност",
+    "updateProfile": "Актуализиране на профила",
+    "changePassword": "Смяна на паролата",
+    "deleteAccount": "Изтриване на акаунт"
+  },
+  "table": {
+    "noData": "Няма налични данни",
+    "loading": "Зареждане...",
+    "rowsPerPage": "Редове на страница",
+    "page": "Страница"
+  },
+  "form": {
+    "submit": "Изпрати",
+    "reset": "Нулиране",
+    "clear": "Изчисти"
+  }
+}

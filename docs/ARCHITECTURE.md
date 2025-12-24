@@ -364,6 +364,51 @@ export function handleError(error: unknown): ActionResponse<never> {
 - Use `any` type
 - Ignore errors
 
+## Middleware Layer
+
+**Location:** `src/middleware.ts`
+
+**Purpose:** Handle request-level concerns before routing
+
+**Responsibilities:**
+
+- Internationalization (i18n) routing
+- Authentication checks (optional)
+- Request logging
+- Custom headers
+- Redirects
+
+**Example:**
+
+```typescript
+// middleware.ts
+import createMiddleware from "next-intl/middleware";
+import { locales, defaultLocale } from "./i18n/request";
+
+export default createMiddleware({
+  locales,
+  defaultLocale,
+  localePrefix: "always", // /en/*, /bg/*
+});
+
+export const config = {
+  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
+};
+```
+
+## Additional Concerns
+
+### Internationalization (i18n)
+
+The application supports multiple languages with:
+
+- Automatic locale detection and routing
+- Type-safe translations with next-intl
+- Server & Client Component support
+- Easy to add new languages
+
+See [INTERNATIONALIZATION.md](./features/INTERNATIONALIZATION.md) for complete i18n documentation.
+
 ## Example: Complete Feature
 
 See [AUTHENTICATION.md](./features/AUTHENTICATION.md) for a complete example of how all layers work together in the authentication system.

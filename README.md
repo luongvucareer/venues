@@ -15,6 +15,7 @@ A professional, production-ready Next.js 15 fullstack template with TypeScript, 
 - **[TypeScript](https://www.typescriptlang.org/)** - Type-safe development
 - **[Prisma](https://www.prisma.io/)** - Type-safe ORM with PostgreSQL
 - **[NextAuth.js v5](https://next-auth.js.org/)** - Complete authentication system
+- **[next-intl](https://next-intl-docs.vercel.app/)** - Internationalization (i18n)
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[Radix UI](https://www.radix-ui.com/)** - Accessible component primitives
 
@@ -35,6 +36,14 @@ A professional, production-ready Next.js 15 fullstack template with TypeScript, 
 - Session management
 - Email verification system
 - Password security (bcrypt)
+
+### 🌍 Internationalization
+
+- Multi-language support (English & Bulgarian)
+- Type-safe translations with next-intl
+- Automatic locale routing (/en/_, /bg/_)
+- Easy to add new languages
+- Server & Client Components support
 
 ### 🎨 UI/UX
 
@@ -172,7 +181,9 @@ Comprehensive documentation is available in the `/docs` directory:
 - **[DATABASE_SETUP.md](docs/DATABASE_SETUP.md)** - Setup PostgreSQL với Docker (tiếng Việt)
 - **[CSS_TOOLING.md](docs/CSS_TOOLING.md)** - PostCSS & Tailwind CSS v4 explained
 - **[SERVER_ACTIONS.md](docs/backend/SERVER_ACTIONS.md)** - Server Actions best practices
+- **[BACKEND_AUTH.md](docs/features/BACKEND_AUTH.md)** - Backend Authentication implementation
 - **[AUTHENTICATION.md](docs/features/AUTHENTICATION.md)** - Complete auth system documentation
+- **[INTERNATIONALIZATION.md](docs/features/INTERNATIONALIZATION.md)** - i18n setup and usage guide
 
 ## 🛠️ Available Scripts
 

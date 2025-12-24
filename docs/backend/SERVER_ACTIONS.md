@@ -512,9 +512,47 @@ describe("createPost", () => {
 });
 ```
 
+## Internationalization in Actions
+
+When working with i18n, you can use translations in Server Actions:
+
+```typescript
+"use server";
+
+import { getTranslations } from "next-intl/server";
+
+export async function createPost(data: unknown): Promise<ActionResponse<Post>> {
+  try {
+    const session = await requireAuth();
+    const validated = createPostSchema.parse(data);
+
+    const post = await postService.create({
+      ...validated,
+      authorId: session.user.id,
+    });
+
+    // Get translations for response message
+    const t = await getTranslations("posts.messages");
+
+    revalidatePath("/posts");
+
+    return {
+      success: true,
+      data: post,
+      message: t("createSuccess"), // Localized message
+    };
+  } catch (error) {
+    return handleError(error);
+  }
+}
+```
+
+See [INTERNATIONALIZATION.md](../features/INTERNATIONALIZATION.md) for complete i18n documentation.
+
 ## See Also
 
 - [ARCHITECTURE.md](../ARCHITECTURE.md) - Overall architecture
 - [SECURITY.md](./SECURITY.md) - Security best practices
 - [TESTING.md](./TESTING.md) - Testing guidelines
 - [AUTHENTICATION.md](../features/AUTHENTICATION.md) - Auth implementation
+- [INTERNATIONALIZATION.md](../features/INTERNATIONALIZATION.md) - i18n implementation

@@ -1,0 +1,147 @@
+{
+  "common": {
+    "appName": "Venues",
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "actions": "Actions"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Name",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "createAccount": "Create an account",
+    "verifyEmail": "Verify Email",
+    "emailVerification": "Email Verification",
+    "resendVerification": "Resend verification email",
+
+    "titles": {
+      "login": "Login to your account",
+      "register": "Create your account",
+      "verifyEmail": "Verify your email address",
+      "forgotPassword": "Reset your password"
+    },
+
+    "messages": {
+      "loginSuccess": "Login successful",
+      "registerSuccess": "Registration successful. Please verify your email.",
+      "logoutSuccess": "Logged out successfully",
+      "verificationSent": "Verification email sent. Please check your inbox.",
+      "emailVerified": "Email verified successfully",
+      "emailAlreadyVerified": "Email is already verified",
+      "invalidCredentials": "Invalid email or password",
+      "emailAlreadyExists": "Email already exists",
+      "userNotFound": "User not found",
+      "emailNotVerified": "Please verify your email first",
+      "invalidToken": "Invalid or expired token",
+      "checkEmail": "Please check your email for verification link"
+    },
+
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "passwordRequired": "Password is required",
+      "passwordMin": "Password must be at least 8 characters",
+      "passwordUppercase": "Must contain uppercase letter",
+      "passwordLowercase": "Must contain lowercase letter",
+      "passwordNumber": "Must contain number",
+      "passwordSpecial": "Must contain special character",
+      "nameRequired": "Name is required",
+      "nameMin": "Name must be at least 2 characters",
+      "passwordsNotMatch": "Passwords do not match",
+      "unexpectedError": "An unexpected error occurred"
+    },
+
+    "placeholders": {
+      "email": "Enter your email",
+      "password": "Enter your password",
+      "confirmPassword": "Confirm your password",
+      "name": "Enter your name"
+    },
+
+    "oauth": {
+      "continueWith": "Or continue with",
+      "google": "Google",
+      "github": "GitHub",
+      "signInWithGoogle": "Sign in with Google",
+      "signInWithGitHub": "Sign in with GitHub"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "about": "About",
+    "contact": "Contact",
+    "help": "Help",
+    "documentation": "Documentation"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalid": "Invalid value",
+    "tooShort": "Too short",
+    "tooLong": "Too long",
+    "min": "Minimum {min} characters",
+    "max": "Maximum {max} characters",
+    "email": "Invalid email address",
+    "url": "Invalid URL",
+    "number": "Must be a number",
+    "integer": "Must be an integer",
+    "positive": "Must be positive",
+    "negative": "Must be negative"
+  },
+  "errors": {
+    "pageNotFound": "Page not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "internalError": "Internal server error",
+    "somethingWentWrong": "Something went wrong",
+    "tryAgain": "Please try again",
+    "contactSupport": "Contact support if the problem persists"
+  },
+  "user": {
+    "profile": "Profile",
+    "settings": "Settings",
+    "account": "Account",
+    "security": "Security",
+    "updateProfile": "Update Profile",
+    "changePassword": "Change Password",
+    "deleteAccount": "Delete Account"
+  },
+  "table": {
+    "noData": "No data available",
+    "loading": "Loading...",
+    "rowsPerPage": "Rows per page",
+    "page": "Page"
+  },
+  "form": {
+    "submit": "Submit",
+    "reset": "Reset",
+    "clear": "Clear"
+  }
+}
